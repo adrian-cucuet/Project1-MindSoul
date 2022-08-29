@@ -33,7 +33,6 @@ h1, h2 {
     font-size: 180%;
     margin-left: 30px;
     letter-spacing: 2px;
-    width: 100%;
 }
 
 #logo i {
@@ -93,7 +92,7 @@ h1, h2 {
 
 #hero-left-side > h2 {
     text-align: right;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 30px;
 }
 
@@ -188,7 +187,9 @@ h1, h2 {
 
 #cards-section {
     width: 100%;
-    height: 600px;
+    height: 700px;
+    padding: 10px 0;
+    background-color: #F5E8E4;
 }
 
 #cards-title {
@@ -210,9 +211,13 @@ h1, h2 {
     height: 500px;
     text-align: center;
     margin: 30px 0;
-    border: 1px solid #F5C7A9;
+    background-color: #F5C7A9;
     border-radius: 10px;
     transition: transform .4s;
+}
+
+.card-homepage h2, .card-homepage p {
+    color: #411530;
 }
 
 .card-homepage img {
@@ -233,7 +238,94 @@ h1, h2 {
 
 .card-homepage:hover {
     box-shadow: 0 0 10px rgba(65, 21, 48,.4);
-    transform: scale(1.05);
 }
 
 /* footer social and signup */
+
+footer {
+    width: 100%;
+}
+
+#footer-title {
+    text-align: center;
+    margin: 40px 0;
+    padding-top: 40px;
+}
+
+#footer-content {
+    width: 100%;
+    display: inline-flex;
+}
+
+#footer-left-social {
+    width: 33%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer-left-social > a {
+    text-decoration: none;
+    color: #411530;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .4s;
+}
+
+#footer-left-social a:hover {
+    transform: scale(1.1);
+}
+
+#footer-left-social > a > i {
+    color: #411530;
+}
+
+#footer-form {
+    padding: 30px;
+    width: 33%;
+    background-color: transparent;
+    color: #411530;
+    font-weight: bold;
+}
+
+#footer-form h3 {
+    color: #411530;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.input-signup {
+    background: transparent;
+    color: #411530;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #411530;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(65, 21, 48,.2);
+}
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    border: 1px solid #411530;
+    color: #411530;
+    background: transparent;
+    display: block;
+}
+
+.submit-button:hover {
+    background-color: #411530;
+    color: #F5C7A9;
+}
+
+#footer-image-form {
+    width: 33%;
+    background: url('../images/undraw_footer.png') no-repeat center center;
+    background-size: cover;
+}
