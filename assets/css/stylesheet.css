@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -26,7 +27,7 @@ header {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #411530;
@@ -151,12 +152,11 @@ h1, h2 {
     clear: both;
     margin-bottom: 40px;
     text-align: right;
-    transition: all .4s ease;
+    transition: transform .4s ease;
 }
 
 .benefits-left-reasons:hover {
     transform: scale(1.1);
-    transition: all .4s ease;
 }
 
 .benefits-left-reasons > h2 {
@@ -223,7 +223,7 @@ h1, h2 {
     margin: 30px 0;
     background-color: #fff;
     border-radius: 10px;
-    transition: all .4s ease;
+    transition: all .3s ease;
 }
 
 .card-homepage h2, .card-homepage p {
@@ -243,12 +243,12 @@ h1, h2 {
 .card-homepage p {
     line-height: 20px;
     margin: 20px 10px;
-    text-justify: left;
 }
 
 .card-homepage:hover {
     box-shadow: 0 0 10px rgba(65, 21, 48,.4);
-    transition: all .4s ease;
+    transition: all .3s ease;
+    transform: scale(1.04);
 }
 
 /* footer social and signup */
@@ -282,11 +282,12 @@ footer {
     color: #411530;
     text-transform: uppercase;
     font-weight: bold;
-    transition: .4s;
+    transition: all .3s ease;
 }
 
 #footer-left-social a:hover {
     transform: scale(1.1);
+    transition: all .3s ease;
 }
 
 #footer-left-social > a > i {
