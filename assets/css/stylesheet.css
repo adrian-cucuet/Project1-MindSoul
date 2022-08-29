@@ -10,6 +10,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+p {
+    color: #411530;
+}
+
 header {
     height: 75px;
     width: 100%;
@@ -18,10 +22,10 @@ header {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Oswald, sans-serif;
+    font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #12130f;
+    color: #411530;
 }
 
 #logo {
@@ -29,10 +33,11 @@ h1, h2 {
     font-size: 180%;
     margin-left: 30px;
     letter-spacing: 2px;
+    width: 100%;
 }
 
 #logo i {
-    color: #5b9279;
+    color: #D1512D;
 }
 
 /* navigation links */
@@ -58,33 +63,177 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #8fcb9b;
+    border-bottom: 2px solid #D1512D;
 }
 
 .active {
-    border-bottom: 1px solid #5b9279;
+    border-bottom: 2px solid #D1512D;
 }
 
 /* Hero image and text */
 
-#hero-cover {
+#hero-outer {
+    height: 600px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: url('../images/stability.png') no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#hero-left-side {
+    height: 120px;
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+#hero-left-side > h2 {
+    text-align: right;
+    font-style: italic;
+    line-height: 30px;
+}
+
+#hero-left-side > p {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    color: #D1512D;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+/* benefits section */
+
+#benefits-meditation{
+    width: 100%;
+    height: 700px;
+}
+
+#benefits-meditation > h2 {
+    text-align: center;
+    margin: 40px 0 30px 0;
+    font-size: 200%;
+    color: #D1512D;
+}
+
+#benefits-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#benefits-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#benefits-center {
+    width: 33%;
+    margin: 0 auto;
+    background: url('../images/undraw_center-benefits.png') no-repeat center center;
+    border-radius: 50%;
+    height: 500px;
+}
+
+.benefits-left-reasons {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 40px;
+    text-align: right;
+    transition: transform .4s;
+}
+
+.benefits-left-reasons:hover {
+    transform: scale(1.1);
+}
+
+.benefits-left-reasons > h2 {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.benefits-right-reasons {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 40px;
+    transition: transform .4s;
+}
+
+.benefits-right-reasons:hover {
+    transform: scale(1.1);
+}
+
+.benefits-right-reasons > h2 {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.benefits-left-reasons hr, .benefits-right-reasons hr {
+    border-top: 2px solid #D1512D;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Cards section */
+
+#cards-section {
     width: 100%;
     height: 600px;
+}
+
+#cards-title {
+    text-align: center;
+    margin: 40px 0 10px 0;
+    font-size: 200%;
+}
+
+#cards-div {
+    width: 100%;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+    margin: 0 auto;
 }
 
-#left-side-hero {
-    width: 50%;
-    height: auto;
+.card-homepage {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 30px 0;
+    border: 1px solid #F5C7A9;
+    border-radius: 10px;
+    transition: transform .4s;
 }
 
-#left-side-hero img {
-    height: 600px;
+.card-homepage img {
+    inline-size: inherit;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-#right-side-hero {
-    width: 50%;
-    height: auto;
+.card-homepage h2 {
+    margin: 20px 0;
 }
+
+.card-homepage p {
+    line-height: 20px;
+    margin: 20px 10px;
+    text-justify: left;
+}
+
+.card-homepage:hover {
+    box-shadow: 0 0 10px rgba(65, 21, 48,.4);
+    transform: scale(1.05);
+}
+
+/* footer social and signup */
