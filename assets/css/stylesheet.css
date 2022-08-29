@@ -92,8 +92,8 @@ h1, h2 {
 
 #hero-left-side > h2 {
     text-align: right;
-    /* font-style: italic; */
-    line-height: 30px;
+    font-size: 250%;
+    line-height: normal;
 }
 
 #hero-left-side > p {
@@ -185,7 +185,7 @@ h1, h2 {
 
 /* Cards section */
 
-#cards-section {
+#meditation-techniques {
     width: 100%;
     height: 700px;
     padding: 10px 0;
@@ -204,6 +204,10 @@ h1, h2 {
     justify-content: space-around;
     align-self: center;
     margin: 0 auto;
+}
+
+#cards-div a {
+    text-decoration: none;
 }
 
 .card-homepage {
