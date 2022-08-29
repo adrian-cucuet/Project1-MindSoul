@@ -151,11 +151,12 @@ h1, h2 {
     clear: both;
     margin-bottom: 40px;
     text-align: right;
-    transition: transform .4s;
+    transition: all .4s ease;
 }
 
 .benefits-left-reasons:hover {
     transform: scale(1.1);
+    transition: all .4s ease;
 }
 
 .benefits-left-reasons > h2 {
@@ -169,11 +170,12 @@ h1, h2 {
     line-height: 20px;
     clear: both;
     margin-bottom: 40px;
-    transition: transform .4s;
+    transition: all .4s ease;
 }
 
 .benefits-right-reasons:hover {
     transform: scale(1.1);
+    transition: all .4s ease;
 }
 
 .benefits-right-reasons > h2 {
@@ -221,7 +223,7 @@ h1, h2 {
     margin: 30px 0;
     background-color: #fff;
     border-radius: 10px;
-    transition: transform .4s;
+    transition: all .4s ease;
 }
 
 .card-homepage h2, .card-homepage p {
@@ -246,6 +248,7 @@ h1, h2 {
 
 .card-homepage:hover {
     box-shadow: 0 0 10px rgba(65, 21, 48,.4);
+    transition: all .4s ease;
 }
 
 /* footer social and signup */
