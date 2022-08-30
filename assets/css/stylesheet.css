@@ -197,6 +197,7 @@ h1, h2 {
 #meditation-techniques {
     width: 100%;
     height: 700px;
+    box-sizing: border-box;
     padding: 10px 0;
     background-color: #F5E8E4;
 }
@@ -509,6 +510,7 @@ footer {
 
 .card-homepage {
     padding: 20px 0;
+    height: auto;
 }
 
 #cards-div a {
@@ -545,4 +547,10 @@ footer {
     width: 60%;
 }
 
+}
+
+
+#box {
+    width: 70%;
+    background: #D1512D;
 }
