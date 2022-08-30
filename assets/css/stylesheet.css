@@ -22,6 +22,11 @@ p {
 header {
     height: 75px;
     width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* headings and logo */
@@ -79,6 +84,7 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     position: relative;
+    margin-top: 5vh;
     width: 100%;
     display: flex;
     background: url('../images/stability.png') no-repeat;
@@ -149,7 +155,7 @@ h1, h2 {
 }
 
 .benefits-left-reasons {
-    width: 60%;
+    width: 80%;
     float: right;
     line-height: 20px;
     clear: both;
@@ -168,7 +174,7 @@ h1, h2 {
 }
 
 .benefits-right-reasons {
-    width: 60%;
+    width: 80%;
     float: left;
     line-height: 20px;
     clear: both;
@@ -228,6 +234,7 @@ h1, h2 {
     height: 500px;
     text-align: center;
     margin: 30px 0;
+    padding: 15px 0;
     background-color: #fff;
     border-radius: 10px;
     transition: all .3s ease;
@@ -280,7 +287,7 @@ footer {
     float: left;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    transform: translateX(25%);
     flex-direction: column;
 }
 
@@ -413,6 +420,10 @@ footer {
 
 /* Hero */
 
+#hero-outer {
+    background-position: bottom;
+}
+
 #hero-left-side {
     height: fit-content;
     width: 80%;
@@ -440,6 +451,10 @@ footer {
 
 /* Benefits */
 
+#benefits-meditation {
+    height: fit-content;
+}
+
 #benefits-meditation > h2 {
     text-align: center;
     margin: 40px 0 30px 0;
@@ -449,25 +464,28 @@ footer {
 
 .benefits-left-reasons {
     clear: both;
-    width: 60%;
+    width: 100%;
+    margin: 0 auto;
     line-height: 20px;
     margin-bottom: 20px;
     text-align: left;
+    float: none;
     transition: transform .4s ease;
 }
 
 #benefits-left {
     clear: both;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    float: none;
 }
 
 .benefits-right-reasons {
     clear: both;
-    width: 60%;
+    width: 100%;
+    float: none;
     line-height: 20px;
+    margin: 0 auto;
     margin-bottom: 20px;
     text-align: left;
     transition: transform .4s ease;
@@ -475,11 +493,10 @@ footer {
 
 #benefits-right {
     clear: both;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    width: 80%;
     padding: 0;
-    flex-direction: column;
+    margin: 0 auto;
+    float: none;
 }
 
 #benefits-center {
@@ -537,6 +554,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: row;
+    transform: none;
 }
 
 #footer-left-social span {
