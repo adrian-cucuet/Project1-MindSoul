@@ -507,6 +507,10 @@ footer {
     align-items: center;
 }
 
+.card-homepage {
+    padding: 20px 0;
+}
+
 #cards-div a {
     width: 80%;
 }
