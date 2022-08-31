@@ -81,27 +81,37 @@ h1, h2 {
 
 /* Hero image and text */
 
+/* #hero-outer {
+    height: 600px;
+    position: relative;
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    background: url('../images/Meditation-bro.svg') no-repeat;
+    background-position: right;
+    background-size: contain;
+} */
+
 #hero-outer {
     height: 600px;
     position: relative;
     margin-top: 5vh;
     width: 100%;
     display: flex;
-    background: url('../images/stability.png') no-repeat;
-    background-position: right;
-    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-right-side {
+    width: 50%;
+    vertical-align: middle;
 }
 
 #hero-left-side {
     height: fit-content;
-    width: 500px;
     text-align: right;
-    position: absolute;
-    background-color: rgba(243, 243, 243, .5);
-    border-radius: 10px;
-    padding: 10px;
-    top: 25%;
-    left: 10%;
+    width: 40%;
+    position: relative;
 }
 
 #hero-left-side > h2 {
@@ -149,7 +159,7 @@ h1, h2 {
 #benefits-center {
     width: 33%;
     margin: 0 auto;
-    background: url(../images/undraw_center-benefits.png) no-repeat;
+    background: url(../images/Modern-woman-bro.svg) no-repeat;
     height: inherit;
     background-size: contain;
 }
@@ -245,7 +255,7 @@ h1, h2 {
 }
 
 .card-homepage img {
-    width: 100%;
+    width: 70%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -352,7 +362,7 @@ footer {
 
 #footer-image-form {
     width: 33%;
-    background: url('../images/undraw_footer.png') no-repeat center center;
+    background: url('../images/Email-campaign-bro.svg') no-repeat center center;
     background-size: contain;
 }
 
@@ -424,15 +434,18 @@ footer {
     background-position: bottom;
 }
 
+#hero-right-side {
+    width: 100%;
+}
+
 #hero-left-side {
+    bottom: 0;
     height: fit-content;
     width: 80%;
     text-align: center;
     position: absolute;
-    background-color: rgba(243, 243, 243, .5);
+    background-color: rgba(243, 243, 243, 0.8);
     border-radius: 10px;
-    top: 20%;
-    left: 10%;
 }
 
 #hero-left-side > h2 {
@@ -595,25 +608,21 @@ footer {
 /* Hero */
 
     #hero-outer {
-        height: 600px;
+        height: auto;
         position: relative;
         margin-top: 8vh;
         width: 100%;
         display: flex;
-        background: url(../images/stability.png) no-repeat;
-        background-position: bottom;
-        background-size: contain;
+        align-items: center;
+        flex-direction: column;
     }
 
     #hero-left-side {
         height: fit-content;
         width: 80%;
         text-align: center;
-        position: absolute;
-        background-color: rgba(243, 243, 243, .5);
-        border-radius: 10px;
-        top: 0;
-        left: 10%;
+        position: relative;
+        background: none;
     }
 
     #hero-left-side > h2 {
