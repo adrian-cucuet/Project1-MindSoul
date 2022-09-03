@@ -19,6 +19,12 @@ p {
     color: #011936;
 }
 
+hr {
+    border-top: 2px solid #011936;
+    width: 100%;
+    margin: 20px 0;
+}
+
 header {
     height: 75px;
     width: 100%;
@@ -435,12 +441,37 @@ footer {
     color: #011936;
 }
 
+/* Intro text */
+
+#page-intro-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px 0;
+    color: #011936;
+    line-height: 1.5rem;
+}
+
+#page-intro-text h3 {
+    padding: 20px 0;
+}
+
+#page-intro-text h2 {
+    padding: 20px 0;
+}
+
+
 /* Stress Video Section */
 
 #stress-videos {
     margin: 0 auto;
     width: 80%;
     padding: 30px 0;
+}
+
+#stress-videos h1 {
+    text-align: center;
+    padding: 30px 0 20px 0;
 }
 
 .stress-video-card {
