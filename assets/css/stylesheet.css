@@ -1013,6 +1013,13 @@ footer {
 
     /* Get Ready Section */
 
+    .stress-card-prepare {
+        max-width: 250px;
+        height: 150px;
+        background-color: #F5C7A9;
+        border-radius: 10px;
+    }
+
     #stress-cards-get-ready {
         width: 100%;
         margin: 0 auto;
@@ -1025,6 +1032,6 @@ footer {
 
     .stress-card-text p {
         padding-top: 10px;
-        font-size: large;
+        font-size: x-large;
     }
 }
