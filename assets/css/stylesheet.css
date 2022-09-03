@@ -937,14 +937,20 @@ footer {
 
 /* Meditation cards section */
 
+    .card-homepage img {
+        width: 40%;
+        border-radius: none;
+        float: left;
+    }
+
     .card-homepage h2 {
         margin: 30px 0;
         font-size: xxx-large;
     }
 
-    .card-homepage > p {
-        font-size: xx-large;
-        line-height: normal;
+    .card-homepage p {
+        line-height: 1.4em;
+        font-size: larger;
     }
 
 /* Beneftis section*/
