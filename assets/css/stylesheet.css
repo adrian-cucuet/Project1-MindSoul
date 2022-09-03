@@ -387,7 +387,7 @@ footer {
 }
 
 #hero-stress-right img {
-    height: 300px;
+    height: auto;
 }
 
 /* Get ready section */
@@ -705,7 +705,7 @@ footer {
     /* Stress Hero */
 
     #hero-stress-right img {
-        height: auto;
+        height: 250px;
     }
 
     /* Get ready section */
@@ -838,7 +838,7 @@ footer {
     /* Stress Hero */
 
     #hero-stress-right img {
-        height: auto;
+        height: 250px;
     }
 
     /* Get ready section */
