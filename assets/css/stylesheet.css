@@ -16,7 +16,7 @@ body {
 }
 
 p {
-    color: #411530;
+    color: #011936;
 }
 
 header {
@@ -35,7 +35,7 @@ h1, h2 {
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #411530;
+    color: #011936;
 }
 
 #logo {
@@ -46,7 +46,7 @@ h1, h2 {
 }
 
 #logo i {
-    color: #D1512D;
+    color: #92E3A9;
 }
 
 /* navigation links */
@@ -72,11 +72,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #D1512D;
+    border-bottom: 2px solid #92E3A9;
 }
 
 .active {
-    border-bottom: 2px solid #D1512D;
+    border-bottom: 2px solid #92E3A9;
 }
 
 /* Hero image and text */
@@ -113,7 +113,7 @@ h1, h2 {
     text-align: right;
     font-style: italic;
     font-weight: bold;
-    color: #D1512D;
+    color: #263238;
     line-height: 20px;
     letter-spacing: 2px;
     margin-top: 10px;
@@ -130,7 +130,7 @@ h1, h2 {
     text-align: center;
     margin: 40px 0 30px 0;
     font-size: 200%;
-    color: #D1512D;
+    color: #011936;
 }
 
 #benefits-left {
@@ -192,7 +192,7 @@ h1, h2 {
 }
 
 .benefits-left-reasons hr, .benefits-right-reasons hr {
-    border-top: 2px solid #D1512D;
+    border-top: 2px solid #92E3A9;
     width: 100%;
     margin: 10px 0;
 }
@@ -204,7 +204,7 @@ h1, h2 {
     height: 700px;
     box-sizing: border-box;
     padding: 10px 0;
-    background-color: #F5E8E4;
+    background-color: #EAE8FF;
 }
 
 #cards-title {
@@ -240,7 +240,7 @@ h1, h2 {
 }
 
 .card-homepage h2, .card-homepage p {
-    color: #411530;
+    color: #011936;
 }
 
 .card-homepage img {
@@ -259,7 +259,7 @@ h1, h2 {
 }
 
 .card-homepage:hover {
-    box-shadow: 0 0 10px rgba(65, 21, 48,.4);
+    box-shadow: 0 0 10px rgba(1, 25, 54,.4);
     transition: all .3s ease;
     transform: scale(1.03);
 }
@@ -293,7 +293,7 @@ footer {
 
 #footer-left-social > a {
     text-decoration: none;
-    color: #411530;
+    color: #011936;
     text-transform: uppercase;
     font-weight: bold;
     transition: all .3s ease;
@@ -305,30 +305,30 @@ footer {
 }
 
 #footer-left-social > a > i {
-    color: #411530;
+    color: #011936;
 }
 
 #footer-form {
     padding: 30px;
     width: 33%;
     background-color: transparent;
-    color: #411530;
+    color: #011936;
     font-weight: bold;
 }
 
 #footer-form h3 {
-    color: #411530;
+    color: #011936;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 .input-signup {
     background: transparent;
-    color: #411530;
+    color: #011936;
     width: 100%;
     height: 30px;
     margin: 5px 0 20px 0;
-    border: 1px solid #411530;
+    border: 1px solid #011936;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(65, 21, 48,.2);
 }
@@ -339,15 +339,15 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    border: 1px solid #411530;
-    color: #411530;
+    border: 1px solid #011936;
+    color: #011936;
     background: transparent;
     display: block;
 }
 
 .submit-button:hover {
-    background-color: #411530;
-    color: #F5C7A9;
+    background-color: #011936;
+    color: #92E3A9;
 }
 
 #footer-image-form {
@@ -390,7 +390,7 @@ footer {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    background-color: #f3f3f3;
+    background-color: #def6e5;
 }
 
 #get-ready > h2 {
@@ -409,8 +409,9 @@ footer {
 .stress-card-prepare {
     max-width: 150px;
     height: 150px;
-    background-color: #F5C7A9;
+    background-color: #fff;
     border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 10%);
 }
 
 .stress-card-number {
@@ -418,19 +419,20 @@ footer {
     width: 25px;
     top: 0;
     right: 0;
-    background-color: #D1512D;
+    background-color: #263238;
     border-bottom-right-radius: 50%;
-    border-top-left-radius: 10px;
+    border-top-left-radius: 9px;
     color: #fff;
 }
 
 .stress-card-text {
-    color: #12130f;
+    color: #011936;
     text-align: center;
 }
 
 .stress-card-text p {
     padding: 20px 0;
+    color: #011936;
 }
 
 /* Stress Video Section */
@@ -449,7 +451,7 @@ footer {
     height: auto;
     gap: 20px;
     padding: 20px 0;
-    border-bottom: 2px solid #12130f;
+    border-bottom: 2px solid #011936;
 }
 
 .stress-video-left {
@@ -517,7 +519,7 @@ footer {
     text-align: left;
     font-style: italic;
     font-weight: normal;
-    color: #D1512D;
+    color: #011936;
     line-height: 20px;
     letter-spacing: 2px;
     margin-top: 10px;
@@ -533,7 +535,7 @@ footer {
     text-align: center;
     margin: 40px 0 30px 0;
     font-size: 150%;
-    color: #D1512D;
+    color: #011936;
 }
 
 .benefits-left-reasons {
@@ -589,7 +591,7 @@ footer {
     height: fit-content;
     padding: 1% 0;
     margin-top: 10%;
-    background-color: #F5E8E4;
+    background-color: #EAE8FF;
 }
 
 #cards-title {
@@ -685,8 +687,6 @@ footer {
 
     .stress-card-prepare {
         width: 100%;
-        background-color: #F5C7A9;
-        border-radius: 10px;
     }
 
     /*Videos section*/
@@ -821,8 +821,6 @@ footer {
 
     .stress-card-prepare {
         width: 100%;
-        background-color: #F5C7A9;
-        border-radius: 10px;
     }
 
 }
@@ -926,7 +924,6 @@ footer {
     #hero-left-side > p {
         font-style: italic;
         font-weight: normal;
-        color: #D1512D;
         line-height: normal;
         letter-spacing: 2px;
         margin: 10px 10px;
@@ -981,11 +978,11 @@ footer {
 
     .input-signup {
         background: transparent;
-        color: #411530;
+        color: #011936;
         width: 100%;
         height: 50px;
         margin: 20px 0 20px 0;
-        border: 1px solid #411530;
+        border: 1px solid #011936;
         border-radius: 10px;
         box-shadow: 0 0 10px rgb(65 21 48 / 20%);
     }
@@ -993,7 +990,7 @@ footer {
     #footer-form {
         padding: 30px;
         background-color: transparent;
-        color: #411530;
+        color: #011936;
         font-weight: bold;
         letter-spacing: normal;
         font-size: 30px;
@@ -1016,8 +1013,7 @@ footer {
     .stress-card-prepare {
         max-width: 250px;
         height: 150px;
-        background-color: #F5C7A9;
-        border-radius: 10px;
+
     }
 
     #stress-cards-get-ready {
