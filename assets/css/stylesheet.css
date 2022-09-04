@@ -88,12 +88,6 @@ header {
         border-bottom: 2px solid #92E3A9;
     }
 
-/* Mobile Navigation bottom */
-
-    #mobile-nav {
-        display: none!important;
-    }
-
 /* Hero Section */
 
     #hero-outer {
@@ -482,6 +476,11 @@ header {
         width: 50%;
     }
 
+/* Mobile Navigation bottom */
+
+    #mobile-nav {
+        display: none;
+    }
 
 /* Screen size less than 1007px */
 
