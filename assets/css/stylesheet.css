@@ -942,11 +942,11 @@ footer {
         display: block;
         height: 150px;
         width: 100%;
-        background: #fff;
+        background: #263238;
         position: fixed;
         bottom: 0;
         z-index: 998;
-        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+        /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); */
     }
 
     #mobile-menu {
@@ -964,14 +964,13 @@ footer {
     }
 
     .mobile-a-seprator {
-        border-left: 1px solid #92E3A9;
+        border-left: 1px solid #fff;
     }
 
     #mobile-menu a {
         text-decoration: none;
-        color: #12130f;
+        color: #fff;
     }
-
 
     #menu {
         display: none;
