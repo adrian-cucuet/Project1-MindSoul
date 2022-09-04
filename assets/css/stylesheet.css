@@ -1,3 +1,4 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -25,6 +26,15 @@ hr {
     margin: 0 auto;
 }
 
+h1, h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #011936;
+}
+
+/* Header */
+
 header {
     height: 75px;
     width: 100%;
@@ -35,664 +45,630 @@ header {
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
-#mobile-nav {
-    display: none;
-}
-
-/* headings and logo */
-
-h1, h2 {
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #011936;
-}
-
-#logo {
-    float: left;
-    font-size: 180%;
-    margin-left: 30px;
-    letter-spacing: 2px;
-}
-
-#logo i {
-    color: #92E3A9;
-}
-
-/* navigation links */
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #12130f;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #92E3A9;
-}
-
-.active {
-    border-bottom: 2px solid #92E3A9;
-}
-
-/* Hero image and text */
-
-#hero-outer {
-    /* height: 600px; */
-    position: relative;
-    margin: 5vh 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#hero-right-side {
-    width: 50%;
-    vertical-align: middle;
-}
-
-#hero-left-side {
-    height: fit-content;
-    text-align: right;
-    width: 40%;
-    position: relative;
-}
-
-#hero-left-side > h2 {
-    text-align: right;
-    font-size: 200%;
-    line-height: normal;
-}
-
-#hero-left-side > p {
-    text-align: right;
-    font-style: italic;
-    font-weight: bold;
-    color: #263238;
-    line-height: 20px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-}
-
-/* benefits section */
-
-#benefits-meditation{
-    width: 100%;
-    /* height: 700px; */
-}
-
-#benefits-meditation > h2 {
-    text-align: center;
-    margin: 40px 0 30px 0;
-    font-size: 200%;
-    color: #011936;
-}
-
-#benefits-left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#benefits-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#benefits-center {
-    width: 33%;
-    margin: 0 auto;
-    /* background: url(../images/Modern-woman-bro.svg) no-repeat;
-    height: inherit;
-    background-size: contain; */
-}
-
-.benefits-left-reasons {
-    width: 80%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 40px;
-    text-align: right;
-    transition: transform .4s ease;
-}
-
-.benefits-left-reasons:hover {
-    transform: scale(1.03);
-}
-
-.benefits-left-reasons > h2 {
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-
-.benefits-right-reasons {
-    width: 80%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 40px;
-    transition: all .4s ease;
-}
-
-.benefits-right-reasons:hover {
-    transform: scale(1.03);
-    transition: all .4s ease;
-}
-
-.benefits-right-reasons > h2 {
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-
-.benefits-left-reasons hr, .benefits-right-reasons hr {
-    border-top: 2px solid #92E3A9;
-    width: 100%;
-    margin: 20px 0 30px 0;
-}
-
-/* Cards section */
-
-#meditation-techniques {
-    width: 100%;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 10px 0;
-    background-color: #def6e5;
-}
-
-#cards-title {
-    text-align: center;
-    margin: 40px 0 10px 0;
-    font-size: 200%;
-}
-
-#cards-div {
-    width: 100%;
-    display: inline-flex;
-    justify-content: center;
-    align-self: center;
-    margin: 0 auto;
-    gap: 30px;
-}
-
-#cards-div a {
-    text-decoration: none;
-    width: 30%;
-}
-
-.card-homepage {
-    width: 100%;
-    max-width: 100%;
-    /* height: 500px; */
-    text-align: center;
-    margin: 30px 0;
-    padding: 15px 0;
-    background-color: #fff;
-    border-radius: 10px;
-    transition: all .3s ease;
-}
-
-.card-homepage h2, .card-homepage p {
-    color: #011936;
-}
-
-.card-homepage img {
-    width: 70%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.card-homepage h2 {
-    margin: 20px 0;
-}
-
-.card-homepage p {
-    line-height: 20px;
-    margin: 20px 10px;
-}
-
-.card-homepage:hover {
-    box-shadow: 0 0 10px rgba(1, 25, 54,.4);
-    transition: all .3s ease;
-    transform: scale(1.03);
-}
-
-/* footer social and signup */
-
-footer {
-    width: 100%;
-    padding-bottom: 6rem;
-}
-
-#footer-title {
-    text-align: center;
-    margin: 40px 0;
-    padding-top: 40px;
-}
-
-#footer-content {
-    width: 100%;
-    display: inline-flex;
-}
-
-#footer-left-social {
-    width: 33%;
-    float: left;
-    display: flex;
-    justify-content: space-around;
-    transform: translateX(25%);
-    flex-direction: column;
-}
-
-#footer-left-social > a {
-    text-decoration: none;
-    color: #011936;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: all .3s ease;
-}
-
-#footer-left-social a:hover {
-    transform: scale(1.03);
-    transition: all .3s ease;
-}
-
-#footer-left-social > a > i {
-    color: #011936;
-}
-
-#footer-form {
-    padding: 30px;
-    width: 33%;
-    background-color: transparent;
-    color: #011936;
-    font-weight: bold;
-}
-
-#footer-form h3 {
-    color: #011936;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.input-signup {
-    background: transparent;
-    color: #011936;
-    width: 100%;
-    height: 30px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #011936;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(65, 21, 48,.2);
-}
-
-.submit-button {
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    border: 1px solid #011936;
-    color: #011936;
-    background: transparent;
-    display: block;
-}
-
-.submit-button:hover {
-    background-color: #011936;
-    color: #92E3A9;
-}
-
-#footer-image-form {
-    width: 33%;
-    background: url('../images/Email-campaign-bro.svg') no-repeat center center;
-    background-size: contain;
-}
-
-/* Stress Page */
-
-/* Hero Stress */
-
-#hero-stress-page {
-    height: 400px;
-    position: relative;
-    padding-top: 5vh;
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-#hero-stress-left {
-    width: 50%;
-    vertical-align: middle;
-}
-
-#hero-stress-right {
-    width: 50%;
-}
-
-#hero-stress-right img {
-    height: auto;
-}
-
-/* Get ready section */
-
-#get-ready {
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    background-color: #def6e5;
-}
-
-#get-ready > h2 {
-    padding-top: 20px;
-}
-
-#stress-cards-get-ready {
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-}
-
-.stress-card-prepare {
-    max-width: 150px;
-    height: 150px;
-    background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 10%);
-}
-
-.stress-card-number {
-    height: 25px;
-    width: 25px;
-    top: 0;
-    right: 0;
-    background-color: #263238;
-    border-bottom-right-radius: 50%;
-    border-top-left-radius: 9px;
-    color: #fff;
-}
-
-.stress-card-text {
-    color: #011936;
-    text-align: center;
-}
-
-.stress-card-text p {
-    padding: 20px 0;
-    color: #011936;
-}
-
-/* Intro text */
-
-#page-intro-text {
-    width: 70%;
-    margin: 0 auto;
-    text-align: left;
-    padding: 2em 0;
-    color: #011936;
-    line-height: 1.5rem;
-}
-
-#page-intro-text h3 {
-    padding: 20px 0;
-}
-
-#page-intro-text h2 {
-    padding: 20px 0;
-}
-
-#page-intro-text ul {
-    list-style: circle;
-    margin-left: 5em;
-}
-
-
-/* Stress Video Section */
-
-#stress-videos {
-    margin: 0 auto;
-    width: 80%;
-}
-
-#stress-videos > h2 {
-    text-align: center;
-    padding: 30px 0;
-    background-color: #def6e5;
-}
-
-.stress-video-card {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    gap: 20px;
-    padding: 2em 0;
-    border-bottom: 2px solid #011936;
-}
-
-.stress-video-left {
-    width: 50%;
-}
-
-.stress-video-left h2 {
-    padding-bottom: 20px;
-}
-
-.stress-video-right {
-    width: 50%;
-}
+/* Logo */
+
+    #logo {
+        float: left;
+        font-size: 180%;
+        margin-left: 30px;
+        letter-spacing: 2px;
+    }
+
+    #logo i {
+        color: #92E3A9;
+    }
+
+/* Menu links */
+
+    #menu {
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+
+    #menu, #logo {
+        line-height: 75px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #12130f;
+    }
+
+    #menu a:hover {
+        border-bottom: 2px solid #92E3A9;
+    }
+
+    .active {
+        border-bottom: 2px solid #92E3A9;
+    }
+
+/* Mobile Navigation bottom */
+
+    #mobile-nav {
+        display: none!important;
+    }
+
+/* Hero Section */
+
+    #hero-outer {
+        position: relative;
+        margin: 5vh 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero-right-side {
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    #hero-left-side {
+        height: fit-content;
+        text-align: right;
+        width: 40%;
+        position: relative;
+    }
+
+    #hero-left-side > h2 {
+        text-align: right;
+        font-size: 200%;
+        line-height: normal;
+    }
+
+    #hero-left-side > p {
+        text-align: right;
+        font-style: italic;
+        font-weight: bold;
+        color: #263238;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+
+/* Benefits section */
+
+    #benefits-meditation{
+        width: 100%;
+    }
+
+    #benefits-meditation > h2 {
+        text-align: center;
+        margin: 40px 0 30px 0;
+        font-size: 200%;
+        color: #011936;
+    }
+
+    #benefits-left {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
+    }
+
+    #benefits-right {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+    }
+
+    #benefits-center {
+        width: 33%;
+        margin: 0 auto;
+    }
+
+    .benefits-left-reasons {
+        width: 80%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 40px;
+        text-align: right;
+        transition: transform .4s ease;
+    }
+
+    .benefits-left-reasons:hover {
+        transform: scale(1.03);
+    }
+
+    .benefits-left-reasons > h2 {
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .benefits-right-reasons {
+        width: 80%;
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 40px;
+        transition: all .4s ease;
+    }
+
+    .benefits-right-reasons:hover {
+        transform: scale(1.03);
+        transition: all .4s ease;
+    }
+
+    .benefits-right-reasons > h2 {
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .benefits-left-reasons hr, .benefits-right-reasons hr {
+        border-top: 2px solid #92E3A9;
+        width: 100%;
+        margin: 20px 0 30px 0;
+    }
+
+/* Meditation Cards section */
+
+    #meditation-techniques {
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px 0;
+        background-color: #def6e5;
+    }
+
+    #cards-title {
+        text-align: center;
+        margin: 40px 0 10px 0;
+        font-size: 200%;
+    }
+
+    #cards-div {
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-self: center;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    #cards-div a {
+        text-decoration: none;
+        width: 30%;
+    }
+
+    .card-homepage {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: 30px 0;
+        padding: 15px 0;
+        background-color: #fff;
+        border-radius: 10px;
+        transition: all .3s ease;
+    }
+
+    .card-homepage h2, .card-homepage p {
+        color: #011936;
+    }
+
+    .card-homepage img {
+        width: 70%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-homepage h2 {
+        margin: 20px 0;
+    }
+
+    .card-homepage p {
+        line-height: 20px;
+        margin: 20px 10px;
+    }
+
+    .card-homepage:hover {
+        box-shadow: 0 0 10px rgba(1, 25, 54,.4);
+        transition: all .3s ease;
+        transform: scale(1.03);
+    }
+
+/* Footer */
+
+    footer {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
+
+    #footer-title {
+        text-align: center;
+        margin: 40px 0;
+        padding-top: 40px;
+    }
+
+    #footer-content {
+        width: 100%;
+        display: inline-flex;
+    }
+
+/* Social Medial Links */
+
+    #footer-left-social {
+        width: 33%;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        transform: translateX(25%);
+        flex-direction: column;
+    }
+
+    #footer-left-social > a {
+        text-decoration: none;
+        color: #011936;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: all .3s ease;
+    }
+
+    #footer-left-social a:hover {
+        transform: scale(1.03);
+        transition: all .3s ease;
+    }
+
+    #footer-left-social > a > i {
+        color: #011936;
+    }
+
+/* Newsletter Form */
+
+    #footer-form {
+        padding: 30px;
+        width: 33%;
+        background-color: transparent;
+        color: #011936;
+        font-weight: bold;
+    }
+
+    #footer-form h3 {
+        color: #011936;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .input-signup {
+        background: transparent;
+        color: #011936;
+        width: 100%;
+        height: 30px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #011936;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(65, 21, 48,.2);
+    }
+
+    .submit-button {
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 15px 32px 15px 32px;
+        text-align: center;
+        font-size: 100%;
+        border: 1px solid #011936;
+        color: #011936;
+        background: transparent;
+        display: block;
+    }
+
+    .submit-button:hover {
+        background-color: #011936;
+        color: #92E3A9;
+    }
+
+    #footer-image-form {
+        width: 33%;
+        background: url('../images/Email-campaign-bro.svg') no-repeat center center;
+        background-size: contain;
+    }
+
+/* Stress, Work, Sleep Pages */
+
+/* Get Ready section */
+
+    #get-ready {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #def6e5;
+    }
+
+    #get-ready > h2 {
+        padding-top: 20px;
+    }
+
+    #cards-get-ready {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .get-ready-card {
+        max-width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 10%);
+    }
+
+    .get-ready-card-number {
+        height: 25px;
+        width: 25px;
+        top: 0;
+        right: 0;
+        background-color: #263238;
+        border-bottom-right-radius: 50%;
+        border-top-left-radius: 9px;
+        color: #fff;
+    }
+
+    .get-ready-card-text {
+        color: #011936;
+        text-align: center;
+    }
+
+    .get-ready-card-text p {
+        padding: 20px 0;
+        color: #011936;
+    }
+
+/* Page Intro Text */
+
+    #page-intro-text {
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        padding: 2em 0;
+        color: #011936;
+        line-height: 1.5rem;
+    }
+
+    #page-intro-text h3 {
+        padding: 20px 0;
+    }
+
+    #page-intro-text h2 {
+        padding: 20px 0;
+    }
+
+    #page-intro-text ul {
+        list-style: circle;
+        margin-left: 5em;
+    }
+
+/* Meditation Videos Section */
+
+    #meditation-videos {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #meditation-videos > h2 {
+        text-align: center;
+        padding: 30px 0;
+        background-color: #def6e5;
+    }
+
+    .meditation-video-card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+        padding: 2em 0;
+        border-bottom: 2px solid #011936;
+    }
+
+    .meditation-video-left {
+        width: 50%;
+    }
+
+    .meditation-video-left h2 {
+        padding-bottom: 20px;
+    }
+
+    .meditation-video-right {
+        width: 50%;
+    }
 
 
 /* Screen size less than 1007px */
 
 @media only screen and (max-width: 1007px) {
 
-/* header */
+/* Header */
 
-#logo {
-    float: left;
-    font-size: 150%;
-    margin-left: 10px;
-    letter-spacing: 2px;
-}
+    #logo {
+        float: left;
+        font-size: 150%;
+        margin-left: 10px;
+        letter-spacing: 2px;
+    }
 
-#menu {
-    font-size: 100%;
-}
+    #menu {
+        font-size: 100%;
+    }
 
-#menu li {
-    margin-right: 20px;
-}
+    #menu li {
+        margin-right: 20px;
+    }
 
 /* Hero */
 
-#hero-outer {
-    height: fit-content;
-    position: relative;
-    margin: 0 auto;
-    padding-top: 12vh;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    #hero-outer {
+        height: fit-content;
+        position: relative;
+        margin: 0 auto;
+        padding-top: 12vh;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-#hero-left-side {
-    position: relative;
-    height: fit-content;
-    width: 50%;
-    text-align: center;
-}
+    #hero-left-side {
+        position: relative;
+        height: fit-content;
+        width: 50%;
+        text-align: center;
+    }
 
-#hero-left-side > h2 {
-    text-align: left;
-    font-size: 200%;
-    line-height: normal;
-}
+    #hero-left-side > h2 {
+        text-align: left;
+        font-size: 200%;
+        line-height: normal;
+    }
 
-#hero-left-side > p {
-    text-align: left;
-    font-style: italic;
-    font-weight: normal;
-    color: #011936;
-    line-height: 20px;
-    letter-spacing: 2px;
-    margin-top: 10px;
-}
+    #hero-left-side > p {
+        text-align: left;
+        font-style: italic;
+        font-weight: normal;
+        color: #011936;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
 
 /* Benefits */
 
-#benefits-meditation {
-    height: fit-content;
-}
+    #benefits-meditation {
+        height: fit-content;
+    }
 
-#benefits-meditation > h2 {
-    text-align: center;
-    margin: 40px 0 30px 0;
-    font-size: 150%;
-    color: #011936;
-}
+    #benefits-meditation > h2 {
+        text-align: center;
+        margin: 40px 0 30px 0;
+        font-size: 150%;
+        color: #011936;
+    }
 
-.benefits-left-reasons {
-    clear: both;
-    width: 100%;
-    margin: 0 auto;
-    line-height: 20px;
-    margin-bottom: 20px;
-    text-align: left;
-    float: none;
-    transition: transform .4s ease;
-}
+    .benefits-left-reasons {
+        clear: both;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+        float: none;
+        transition: transform .4s ease;
+    }
 
-#benefits-left {
-    clear: both;
-    width: 80%;
-    margin: 0 auto;
-    float: none;
-}
+    #benefits-left {
+        clear: both;
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
 
-.benefits-right-reasons {
-    clear: both;
-    width: 100%;
-    float: none;
-    line-height: 20px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    text-align: left;
-    transition: transform .4s ease;
-}
+    .benefits-right-reasons {
+        clear: both;
+        width: 100%;
+        float: none;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: left;
+        transition: transform .4s ease;
+    }
 
-.benefits-left-reasons i {
-    float: left;
-    padding-right: 1rem;
-}
+    .benefits-left-reasons i {
+        float: left;
+        padding-right: 1rem;
+    }
 
-#benefits-right {
-    clear: both;
-    width: 80%;
-    padding: 0;
-    margin: 0 auto;
-    float: none;
-}
+    #benefits-right {
+        clear: both;
+        width: 80%;
+        padding: 0;
+        margin: 0 auto;
+        float: none;
+    }
 
-#benefits-center {
-    display: none;
-}
+    #benefits-center {
+        display: none;
+    }
 
 /* Meditation techniques */
 
-#meditation-techniques {
-    width: 100%;
-    height: fit-content;
-    padding: 1% 0;
-    margin-top: 10%;
-    background-color: #def6e5;
-}
+    #meditation-techniques {
+        width: 100%;
+        height: fit-content;
+        padding: 1% 0;
+        margin-top: 10%;
+        background-color: #def6e5;
+    }
 
-#cards-title {
-    text-align: center;
-    margin: 40px 0 10px 0;
-    
-}
+    #cards-title {
+        text-align: center;
+        margin: 40px 0 10px 0;
+        
+    }
 
-#cards-div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    #cards-div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.card-homepage {
-    padding: 20px 0;
-    height: auto;
-}
+    .card-homepage {
+        padding: 20px 0;
+        height: auto;
+    }
 
-.card-homepage p {
-    margin: 30px 20px;
-    line-height: 1.4em;
-    font-size: large;
-}
+    .card-homepage p {
+        margin: 30px 20px;
+        line-height: 1.4em;
+        font-size: large;
+    }
 
-.card-homepage h2 {
-    margin: 40px 0;
-    font-size: xx-large;
-}
+    .card-homepage h2 {
+        margin: 40px 0;
+        font-size: xx-large;
+    }
 
-#cards-div a {
-    width: 80%;
-}
+    #cards-div a {
+        width: 80%;
+    }
 
-.card-homepage img {
-    width: 70%;
-    border-radius: none;
-}
+    .card-homepage img {
+        width: 70%;
+        border-radius: initial;
+    }
 
-/* footer */
+/* Footer */
 
-#footer-image-form {
-    display: none;
-}
+    #footer-image-form {
+        display: none;
+    }
 
 
-#footer-content {
-    width: 100%;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-}
+    #footer-content {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-#footer-left-social {
-    width: 60%;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    transform: none;
-}
+    #footer-left-social {
+        width: 60%;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        transform: none;
+    }
 
     #footer-left-social span {
         display: none;
@@ -703,17 +679,11 @@ footer {
     }
 
 
-    /* Stress Page */
+/* Stress Page */
 
-    /* Stress Hero */
+/* Get Ready section */
 
-    #hero-stress-right img {
-        height: 250px;
-    }
-
-    /* Get ready section */
-
-    #stress-cards-get-ready {
+    #cards-get-ready {
         width: 90%;
         margin: 0 auto;
         display: flex;
@@ -724,14 +694,14 @@ footer {
         gap: 20px;
     }
 
-    .stress-card-prepare {
+    .meditation-card-prepare {
         width: 100%;
     }
 
-    /*Videos section*/
+/*Videos section*/
 
 
-    .stress-video-card {
+    .meditation-video-card {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -742,17 +712,17 @@ footer {
         align-content: center;
     }
 
-    .stress-video-left {
+    .meditation-video-left {
         width: 100%;
     }
 
-    .stress-video-right {
+    .meditation-video-right {
         width: 100%;
         position: relative;
         padding-bottom: 56.25%;
     }
 
-    .stress-video-right iframe {
+    .meditation-video-right iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -767,7 +737,7 @@ footer {
 
 @media only screen and (max-device-width: 990px) {
 
-    /* Hero */
+/* Hero */
 
     #hero-outer {
         height: fit-content;
@@ -798,7 +768,7 @@ footer {
         line-height: normal;
     }
 
-    /* Meditation cards */
+/* Meditation cards */
 
     .card-homepage {
         padding: 20px 0;
@@ -808,8 +778,8 @@ footer {
         align-items: center;
     }
     .card-homepage p {
-        line-height: 1.4em;
-        font-size: normal;
+        line-height: 1.5em;
+        font-size: 1.5em;
     }
     
     #cards-div a {
@@ -817,15 +787,11 @@ footer {
     }
     .card-homepage img {
         width: 45%;
-        border-radius: none;
+        border-radius: initial;
         float: left;
     }
-    
-    /* .card-homepage img {
-        width: 50%;
-    } */
 
-    /* Benefits section */
+/* Benefits section */
 
     .benefits-left-reasons i {
         float: left;
@@ -836,17 +802,11 @@ footer {
         padding-right: 0.5rem;
     }
 
-    /* Stress Page */
+/* Stress Page */
 
-    /* Stress Hero */
+/* Get ready section */
 
-    #hero-stress-right img {
-        height: 250px;
-    }
-
-    /* Get ready section */
-
-    #stress-cards-get-ready {
+    #cards-get-ready {
         width: 90%;
         margin: 0 auto;
         display: flex;
@@ -857,19 +817,18 @@ footer {
         gap: 20px;
     }
 
-    .stress-card-prepare {
+    .meditation-card-prepare {
         width: 100%;
     }
 
 }
 
 
-
 /* Screen size under 760px */
 
 @media only screen and (max-width:760px) {
 
-    /* Hero */
+/* Hero */
 
     #hero-outer {
         height: 100%;
@@ -916,7 +875,8 @@ footer {
 @media only screen and (max-device-width: 672px) {
 
 
-/* header */
+/* Header */
+
     header {
         height: auto;
         width: 100%;
@@ -935,7 +895,7 @@ footer {
         line-height: 100px;
     }
 
-    /* Mobile Navigation Bottom */
+/* Mobile Navigation Bottom */
 
     #mobile-nav {
         display: block;
@@ -945,7 +905,6 @@ footer {
         position: fixed;
         bottom: 0;
         z-index: 998;
-        /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2); */
     }
 
     #mobile-menu {
@@ -1017,7 +976,7 @@ footer {
 
     .card-homepage img {
         width: 40%;
-        border-radius: none;
+        border-radius: initial;
         float: left;
     }
 
@@ -1055,7 +1014,7 @@ footer {
         float: none;
     }
 
-    /* Footer */
+/* Footer */
 
     footer {
         padding-bottom: 10rem;
@@ -1091,17 +1050,17 @@ footer {
         font-size: 30px;
     }
 
-    /* Stress Page */
+/* Stress Page */
 
-    /* Get Ready Section */
+/* Get Ready Section */
 
-    .stress-card-prepare {
+    .meditation-card-prepare {
         max-width: 250px;
         height: 150px;
 
     }
 
-    #stress-cards-get-ready {
+    #cards-get-ready {
         width: 100%;
         margin: 0 auto;
         display: flex;
@@ -1111,7 +1070,7 @@ footer {
         align-content: center;
     }
 
-    .stress-card-text p {
+    .meditation-card-text p {
         padding-top: 10px;
         font-size: x-large;
     }
