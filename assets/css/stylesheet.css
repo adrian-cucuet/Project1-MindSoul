@@ -958,8 +958,14 @@ footer {
         list-style: none;
     }
 
-    .mobile-li {
+    .mobile-a {
         line-height: 150px;
+        width: 25%;
+        text-align: center;
+    }
+
+    .mobile-a-seprator {
+        border-left: 1px solid #92E3A9;
     }
 
     #mobile-menu a {
