@@ -35,6 +35,10 @@ header {
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
 }
 
+#mobile-nav {
+    display: none;
+}
+
 /* headings and logo */
 
 h1, h2 {
@@ -90,7 +94,7 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     position: relative;
-    margin-top: 5vh;
+    margin: 5vh 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -274,7 +278,7 @@ h1, h2 {
 
 footer {
     width: 100%;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
 }
 
 #footer-title {
@@ -471,12 +475,12 @@ footer {
 #stress-videos {
     margin: 0 auto;
     width: 80%;
-    padding: 30px 0;
 }
 
-#stress-videos h1 {
+#stress-videos > h2 {
     text-align: center;
-    padding: 30px 0 20px 0;
+    padding: 30px 0;
+    background-color: #def6e5;
 }
 
 .stress-video-card {
@@ -486,7 +490,7 @@ footer {
     align-items: center;
     height: auto;
     gap: 20px;
-    padding: 4em 0;
+    padding: 2em 0;
     border-bottom: 2px solid #011936;
 }
 
@@ -660,7 +664,7 @@ footer {
 }
 
 #cards-div a {
-    width: 60%;
+    width: 80%;
 }
 
 .card-homepage img {
@@ -871,7 +875,7 @@ footer {
     #hero-outer {
         height: 100%;
         position: relative;
-        margin-top: 8vh;
+        margin-top: 5vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -895,12 +899,11 @@ footer {
     #hero-left-side > p {
         font-style: italic;
         font-weight: normal;
-        color: #D1512D;
+        color: #011936;
         line-height: normal;
         letter-spacing: 2px;
-        margin: 10px 10px;
-        font-size: normal;
-        text-align: center;
+        margin: 10px 0;
+        text-align: left;
     }
 
 }
@@ -916,17 +919,53 @@ footer {
         width: 100%;
         background: #fff;
     }
+
+    header a {
+        text-decoration: none;
+    }
     
     #logo {
-        float: left;
+        float: none;
+        text-align: center;
+        /* float: left; */
         font-size: 300%;
-        margin-left: 10px;
+        /* margin-left: 10px; */
         letter-spacing: 2px;
         line-height: 100px;
     }
 
 
+    #mobile-nav {
+        display: block;
+        height: 75px;
+        width: 100%;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        z-index: 998;
+        box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    #mobile-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 2rem;
+        list-style: none;
+    }
+
+    .mobile-li {
+        line-height: 100px;
+    }
+
+    #mobile-menu a {
+        text-decoration: none;
+        color: #12130f;
+    }
+
+
     #menu {
+        display: none;
         font-size: 200%;
     }
 
