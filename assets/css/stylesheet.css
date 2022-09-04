@@ -1059,6 +1059,10 @@ footer {
 
     /* Footer */
 
+    footer {
+        padding-bottom: 10rem;
+    }
+
     .input-signup {
         background: transparent;
         color: #011936;
