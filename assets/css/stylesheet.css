@@ -686,7 +686,7 @@ header {
         width: 90%;
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         padding: 30px 0;
         align-content: center;
@@ -1049,15 +1049,9 @@ header {
         font-size: 30px;
     }
 
-/* Stress Page */
+/* Meditation Pages */
 
 /* Get Ready Section */
-
-    .meditation-card-prepare {
-        max-width: 250px;
-        height: 150px;
-
-    }
 
     #cards-get-ready {
         width: 100%;
@@ -1069,8 +1063,23 @@ header {
         align-content: center;
     }
 
-    .meditation-card-text p {
-        padding-top: 10px;
-        font-size: x-large;
+    .get-ready-card {
+        width: 30%;
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .get-ready-card-number {
+        height: 30px;
+        width: 30px;
+    }
+
+    .get-ready-card-number h3 {
+        padding: 3px;
+    }
+
+    .get-ready-card-text {
+        height: 70%;
+        font-size: 1.5em;
     }
 }
