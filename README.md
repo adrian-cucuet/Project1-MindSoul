@@ -8,8 +8,6 @@ If you have problems sleeping we have a page with advice on how to get a better 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -23,57 +21,46 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Home page__
 
-  - The Home page includes a hero section where the user can see what is the purpose of the website.
-  - The Benefits section will explain what are the benefits of meditation and how it can change your life.
-  - Meditation section explains the 3 main meditation techniques that can be used for stress relief and better sleep.
+  - The Home page includes a hero section where the user can see what is the purpose of the website. Using an illustration of a person meditating and throug the heading it is a clear message that the website is about meditation.
   - Contact section is offering social media links to Facebook, Instagram and Youtube; the section has a newsletter signup form for the users to get advice and information about retreats.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/adrian-cucuet/project1/blob/main/assets/images/hero-home.png)
 
-- __Meditation pages__
+- __Benefits section__
 
-  - There are 3 meditation pages: Stress, Work and Sleep
-  - Each meditation page consists of vital information on how the body and the life is affected by stress and anxiety, as well and tips on how to handle daily stress and relax.
-  - Each page is offering information on how to start meditation and 3 guided meditation videos.
+  - The Benefits section will explain what are the benefits of meditation and how it can change your life. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Benefits](https://github.com/adrian-cucuet/project1/blob/main/assets/images/benefits-section.png)
 
-- __Meetup Times section__
+- __Meditation section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - Meditation section explains the 3 main meditation techniques that can be used for stress relief and better sleep.  
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meditation section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-section.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/adrian-cucuet/project1/blob/main/assets/images/footer-full.png)
 
-- __The Sign Up Newsletter Footer__
+- __Meditation pages__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
+  - There are 3 meditation pages using the same structure: Stress, Work and Sleep.
+  - Each meditation page consists of vital information on how the body and the life is affected by stress and anxiety, as well and tips on how to handle daily stress and relax.
+  - Each page is offering information on how to start meditation and 3 guided meditation videos.
 
 ### Features Left to Implement
 
 - Another feature idea would be to create a Retreats page where the users can organize retreat events and register to participate.
 - Implementing animation using JavaScript for the illustration and the mobile navbar.
 
-
 ## Testing 
 
 Testing has been done on different browsers (Chrome, Safari, Firefox) and the website was performing well on all three.
 
 The mobile responsiveness testing has been done using iPhone, Xiaomi and Samsung and the website kept the same layout on all three with no issues.
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
