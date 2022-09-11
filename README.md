@@ -1,4 +1,4 @@
-# Mind&Soul
+# [Mind & Soul](https://adrian-cucuet.github.io/project1/index.html)
 
 Mind & Soul is a website that creates a safe space for people who suffer from anxiety and stress. You can find information on how stress can affect you in your personal life, work life and it can even affect your sleep. Throughout the website you will find useful information on how to deal and cope with stress and anxiety at home or at work. Guided meditation videos will help you relax and prepare you for anything that might come towards you during the day.
 
@@ -62,15 +62,15 @@ Testing has been done on different browsers (Chrome, Safari, Firefox) and the we
 
 The mobile responsiveness testing has been done using iPhone, Xiaomi and Samsung and the website kept the same layout on all three with no issues.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  - The results for the Lighthouse are all above 90:
+  [Lighthouse Score](https://github.com/adrian-cucuet/project1/blob/main/assets/images/lighthouse-perfm.png)
 
 ### Unfixed Bugs
 
@@ -80,27 +80,18 @@ Due to videos embeded in the Mediation pages, the performance was low. I have tr
 
 - The site was deployed to GitHub pages and was created using GitPod.
 
-The live link can be found here - https://adrian-cucuet.github.io/project1/index.html 
+The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/project1/index.html)
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
+- The icons used for social medial and benefits are from [FontAwesome](https://fontawesome.com/)
+- The text for the Home page and all the Meditation pages was taken from [HSE](https://www.hse.ie/eng/)
+- The icons used for social medial and benefits are from [FontAwesome](https://fontawesome.com/)
+- All the illustration are from [Storyset](https://storyset.com/people)
+- The videos are taken from various [YouTube](https://www.youtube.com/) channels as embedded videos.
 - [Favicon](https://favicon.io/favicon-generator/) used for creating icons for the website.
-
-### Content 
-
-- The text for the Home page and all the Meditation pages was taken NHS website
-- The icons are taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The videos are taken from various YouTube channels as embedded videos.
-
 
 ## Other General Project Advice
 
+- Whenever I encounter difficulties, I went and checked for solutions on [W3Schools](https://www.w3schools.com/).
