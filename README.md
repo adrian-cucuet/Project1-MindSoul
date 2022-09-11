@@ -62,8 +62,6 @@ Testing has been done on different browsers (Chrome, Safari, Firefox) and the we
 
 The mobile responsiveness testing has been done using iPhone, Xiaomi and Samsung and the website kept the same layout on all three with no issues.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
