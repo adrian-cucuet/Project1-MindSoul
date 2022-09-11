@@ -14,22 +14,27 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Meditation section and Contact section and is identical in each page to allow for easy navigation.
+  - On small screens like mobile phones, the navigation is showing in the bottom of the screen. The desicion was based on the latest UX research.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/adrian-cucuet/project1/blob/main/assets/images/navbar-full.png)
 
-- __The landing page image__
+![Mobile Nav Bar](https://github.com/adrian-cucuet/project1/blob/main/assets/images/navbar-mobile.png)
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- __The Home page__
+
+  - The Home page includes a hero section where the user can see what is the purpose of the website.
+  - The Benefits section will explain what are the benefits of meditation and how it can change your life.
+  - Meditation section explains the 3 main meditation techniques that can be used for stress relief and better sleep.
+  - Contact section is offering social media links to Facebook, Instagram and Youtube; the section has a newsletter signup form for the users to get advice and information about retreats.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Meditation pages__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - There are 3 meditation pages: Stress, Work and Sleep
+  - Each meditation page consists of vital information on how the body and the life is affected by stress and anxiety, as well and tips on how to handle daily stress and relax.
+  - Each page is offering information on how to start meditation and 3 guided meditation videos.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
@@ -53,15 +58,18 @@ In this section, you should go over the different parts of your project, and des
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Another feature idea would be to create a Retreats page where the users can organize retreat events and register to participate.
+- Implementing animation using JavaScript for the illustration and the mobile navbar.
+
 
 ## Testing 
+
+Testing has been done on different browsers (Chrome, Safari, Firefox) and the website was performing well on all three.
+
+The mobile responsiveness testing has been done using iPhone, Xiaomi and Samsung and the website kept the same layout on all three with no issues.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -75,19 +83,17 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Due to videos embeded in the Mediation pages, the performance was low. I have tried to find solutions to increase the performance score. One of the solution was to create a link for the videos and send the user on YouTube website. As this would drive traffic away from this website I decided to wait until I find a javascript solution to fix the loading time for the pages.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages.
+- The site was deployed to GitHub pages and was created using GitPod.
 
 The live link can be found here - https://adrian-cucuet.github.io/project1/index.html 
 
