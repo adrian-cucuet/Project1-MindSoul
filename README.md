@@ -1,8 +1,8 @@
 # Mind&Soul
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Mind & Soul is a website that creates a safe space for people who suffer from anxiety and stress. You can find information on how stress can affect you in your personal life, work life and it can even affect your sleep. Throughout the website you will find useful information on how to deal and cope with stress and anxiety at home or at work. Guided meditation videos will help you relax and prepare you for anything that might come towards you during the day.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+If you have problems sleeping we have a page with advice on how to get a better sleep, as well as guided meditations to help you achieve an amazing sleep.
 
 ![Responsice Mockup](https://github.com/adrian-cucuet/project1/blob/main/assets/images/all-devices-black.png)
 

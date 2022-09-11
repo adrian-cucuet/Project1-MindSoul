@@ -30,7 +30,14 @@ h1,
 h2 {
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
+    color: #011936;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #011936;
 }
 
@@ -173,7 +180,7 @@ header {
     transform: scale(1.03);
 }
 
-.benefits-left-reasons>h2 {
+.benefits-left-reasons>h3 {
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -183,7 +190,7 @@ header {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     transition: all .4s ease;
 }
 
@@ -192,7 +199,7 @@ header {
     transition: all .4s ease;
 }
 
-.benefits-right-reasons>h2 {
+.benefits-right-reasons>h3 {
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -201,7 +208,7 @@ header {
 .benefits-right-reasons hr {
     border-top: 2px solid #92E3A9;
     width: 100%;
-    margin: 20px 0 30px 0;
+    margin: 10px 0 20px 0;
 }
 
 /* Meditation Cards section */
@@ -486,9 +493,9 @@ footer {
     display: none;
 }
 
-/* Screen size less than 770px */
+/* Screen size less than 801px */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 801px) {
 
     /* Header */
 
@@ -851,10 +858,18 @@ footer {
 
     /* Meditation cards section */
 
+    #meditation-techniques {
+        padding: 0 16px;
+    }
+
     .card-homepage img {
         width: 100%;
         border-radius: initial;
         clear: both;
+    }
+
+    #cards-div a {
+        width: 100%;
     }
 
     .card-homepage h2 {
@@ -955,6 +970,5 @@ footer {
 
     .get-ready-card-text {
         height: 70%;
-        font-size: 1.5em;
     }
 }
