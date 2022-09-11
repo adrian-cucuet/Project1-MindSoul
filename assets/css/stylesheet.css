@@ -770,7 +770,7 @@ footer {
 
     #mobile-nav {
         display: block;
-        height: 100px;
+        height: 4rem;
         width: 100%;
         background: #263238;
         position: fixed;
@@ -786,7 +786,7 @@ footer {
     }
 
     .mobile-a {
-        line-height: 100px;
+        line-height: 4rem;
         width: 25%;
         text-align: center;
     }
@@ -798,6 +798,10 @@ footer {
     #mobile-menu a {
         text-decoration: none;
         color: #fff;
+    }
+
+    #active {
+        -webkit-text-fill-color: #92E3A9;
     }
 
     #menu {
