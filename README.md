@@ -12,18 +12,18 @@ For the wireframes I used [Balsamiq](https://balsamiq.com/)
  
 ### Desktop
  
-[Homepage wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page.png)
-[Meditation wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-page.png)
+- [Homepage wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page.png)
+- [Meditation wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-page.png)
  
 ### Tablet
  
-[Homepage Tablet wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page-tablet.png)
-[Meditation Tablet wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-tablet.png)
+- [Homepage Tablet wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page-tablet.png)
+- [Meditation Tablet wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-tablet.png)
  
 ### Mobile
  
-[Homepage Mobile wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page-mobile.png)
-[Meditation Mobile wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-mobile.png)
+- [Homepage Mobile wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page-mobile.png)
+- [Meditation Mobile wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-mobile.png)
  
 ## Features
  
