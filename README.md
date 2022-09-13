@@ -66,7 +66,7 @@ For the wireframes I used [Balsamiq](https://balsamiq.com/)
  
 - __Meditation pages__
  
- - There are 3 meditation pages using the same structure: Stress, Work and Sleep.
+ - There are 3 meditation pages using the same structure: [Stress](https://github.com/adrian-cucuet/project1/blob/main/assets/images/stress-page.png), [Work](https://github.com/adrian-cucuet/project1/blob/main/assets/images/work-page.png) and [Sleep](https://github.com/adrian-cucuet/project1/blob/main/assets/images/sleep-page.png).
  - Each meditation page consists of vital information on how the body and life is affected by stress and anxiety, as well and tips on how to handle daily stress and relax.
  - Each page is offering information on how to start meditation and 3 guided meditation videos.
  
