@@ -8,22 +8,9 @@ If you have problems sleeping we have a page with advice on how to get a better 
  
 ## Wireframe
  
-For the wireframes I used [Balsamiq](https://balsamiq.com/)
- 
-### Desktop
- 
-- [Homepage wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page.png)
-- [Meditation wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-page.png)
- 
-### Tablet
- 
-- [Homepage Tablet wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page-tablet.png)
-- [Meditation Tablet wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-tablet.png)
- 
-### Mobile
- 
-- [Homepage Mobile wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/home-page-mobile.png)
-- [Meditation Mobile wifeframe](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-mobile.png)
+For the wireframes I used [Balsamiq](https://balsamiq.com/).
+
+![Wifeframes](https://github.com/adrian-cucuet/project1/blob/main/assets/images/wireframes.png)
  
 ## Features
  
