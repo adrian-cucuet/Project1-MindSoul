@@ -27,9 +27,7 @@ For the wireframes I used [Balsamiq](https://balsamiq.com/)
  
 ## Features
  
-### Existing Features
- 
-- __Navigation Bar__
+### Navigation Bar
  
  - Featured on all pages, the full responsive navigation bar includes links to the Logo, Home page, Meditation section and Contact section and is identical in each page to allow for easy navigation.
  - On small screens like mobile phones, the navigation is shown at the bottom of the screen. The decision was based on the latest UX research.
@@ -38,33 +36,33 @@ For the wireframes I used [Balsamiq](https://balsamiq.com/)
  
 ![Mobile Nav Bar](https://github.com/adrian-cucuet/project1/blob/main/assets/images/navbar-mobile.png)
  
-- __The Home page__
+### The Home page
  
  - The Home page includes a hero section where the user can see what is the purpose of the website. Using an illustration of a person meditating and through the heading it is a clear message that the website is about meditation.
  - Contact section is offering social media links to Facebook, Instagram and Youtube; the section has a newsletter signup form for the users to get advice and information about retreats.
  
 ![Landing Page](https://github.com/adrian-cucuet/project1/blob/main/assets/images/hero-home.png)
  
-- __Benefits section__
+### Benefits section
  
  - The Benefits section will explain what are the benefits of meditation and how it can change your life.
  
 ![Benefits](https://github.com/adrian-cucuet/project1/blob/main/assets/images/benefits-section.png)
  
-- __Meditation section__
+### Meditation section
  
  - Meditation section explains the 3 main meditation techniques that can be used for stress relief and better sleep. 
  
 ![Meditation section](https://github.com/adrian-cucuet/project1/blob/main/assets/images/meditation-section.png)
  
-- __The Footer__
+### The Footer
  
  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
  - The footer is valuable to the user as it encourages them to keep connected via social media
  
 ![Footer](https://github.com/adrian-cucuet/project1/blob/main/assets/images/footer-full.png)
  
-- __Meditation pages__
+### Meditation pages
  
  - There are 3 meditation pages using the same structure: [Stress](https://github.com/adrian-cucuet/project1/blob/main/assets/images/stress-page.png), [Work](https://github.com/adrian-cucuet/project1/blob/main/assets/images/work-page.png) and [Sleep](https://github.com/adrian-cucuet/project1/blob/main/assets/images/sleep-page.png).
  - Each meditation page consists of vital information on how the body and life is affected by stress and anxiety, as well and tips on how to handle daily stress and relax.
@@ -118,3 +116,4 @@ The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/
  
 - Whenever I encounter difficulties, I went and checked for solutions on [W3Schools](https://www.w3schools.com/).
 
+- To make the iframe responsive and keep the ratio I found a solution on [stackoverflow](https://stackoverflow.com/a/60166158/19997434)
