@@ -8,7 +8,7 @@ If you have problems sleeping we have a page with advice on how to get a better 
  
 ## Wireframe
  
-For the wireframes I used [Balsamiq](https://balsamiq.com/).
+For the wireframes I used [Balsamiq](https://balsamiq.com/). From left to right we have Home Page Desktop and Meditation Desktop Page, Home Page Tablet and Meditation Tablet Page, Home Page Mobile and Meditation Mobile Page.
 
 ![Wifeframes](https://github.com/adrian-cucuet/project1/blob/main/assets/images/wireframes.png)
  
@@ -44,8 +44,8 @@ For the wireframes I used [Balsamiq](https://balsamiq.com/).
  
 ### The Footer
  
- - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
- - The footer is valuable to the user as it encourages them to keep connected via social media
+ - The footer section includes links to the relevant social media sites for Mind & Soul. The links will open to a new tab to allow easy navigation for the user.
+ - The footer is valuable to the user as it encourages them to keep connected via social media or signing up for newsletter.
  
 ![Footer](https://github.com/adrian-cucuet/project1/blob/main/assets/images/footer-full.png)
  
@@ -57,6 +57,10 @@ For the wireframes I used [Balsamiq](https://balsamiq.com/).
 
  - Each meditation page consists of vital information on how the body and life is affected by stress and anxiety, as well and tips on how to handle daily stress and relax.
  - Each page is offering information on how to start meditation and 3 guided meditation videos.
+
+### Thank you page
+
+ - After submiting 
  
 ### Features Left to Implement
  
