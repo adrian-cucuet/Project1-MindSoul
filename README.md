@@ -1,10 +1,12 @@
-# [Mind & Soul](https://adrian-cucuet.github.io/project1/index.html)
+# Mind & Soul
  
 Mind & Soul is a website that creates a safe space for people who suffer from anxiety and stress. You can find information on how stress can affect you in your personal life, work life and it can even affect your sleep. Throughout the website, you will find useful information on how to deal with and cope with stress and anxiety at home or work. Guided meditation videos will help you relax and prepare you for anything that might come towards you during the day.
  
 If you have problems sleeping we have a page with advice on how to get better sleep, as well as guided meditations to help you achieve an amazing sleep.
  
 ![Responsive Mockup](https://github.com/adrian-cucuet/project1/blob/main/assets/images/all-devices-black.png)
+
+[Mind & Soul - Live Webpage](https://adrian-cucuet.github.io/project1/index.html)
 
 # Table of Contents
 
