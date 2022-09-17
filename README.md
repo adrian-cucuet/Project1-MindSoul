@@ -116,13 +116,11 @@ Due to the Favicon files uploaded, the website has a .webmanifest file that allo
  
 ### Validator Testing
  
-- HTML
- - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html)
-- CSS
- - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- HTML: No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html)
+- CSS: No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadrian-cucuet.github.io%2Fproject1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  
- - The results for the Lighthouse are all above 90:
- [Lighthouse Score](https://github.com/adrian-cucuet/project1/blob/main/assets/images/lighthouse-perfm.png)
+- The results for the Lighthouse are all above 90:
+ ![Lighthouse Score](https://github.com/adrian-cucuet/project1/blob/main/assets/images/lighthouse-perfm.png)
  
 ### Unfixed Bugs
  
