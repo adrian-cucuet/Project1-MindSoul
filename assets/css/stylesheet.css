@@ -34,7 +34,8 @@ h2 {
     color: #011936;
 }
 
-h3 {
+h3,
+h4 {
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -124,6 +125,11 @@ header {
     text-align: right;
     font-size: 200%;
     line-height: normal;
+}
+
+#hero-left-side h1 {
+    font-size: 5rem;
+    text-transform: none;
 }
 
 #hero-left-side>p {
@@ -390,7 +396,7 @@ footer {
 }
 
 #cards-get-ready {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -399,7 +405,7 @@ footer {
 }
 
 .get-ready-card {
-    max-width: 150px;
+    max-width: 200px;
     height: 150px;
     background-color: #fff;
     border-radius: 10px;
@@ -509,11 +515,33 @@ footer {
 
 /* Thank You Page */
 
-#hero-left-side>a {
-    float: right;
+#hero-left-side a {
     color: #011936;
     text-decoration: none;
     padding-top: 1rem;
+    text-decoration: none;
+}
+
+#hero-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-center>h2 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: none;
+}
+
+#hero-center>h3 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#hero-center>h4 {
+    text-align: center;
+    padding: 20px 0;
 }
 
 .back-home {
@@ -564,7 +592,7 @@ footer {
         height: fit-content;
         position: relative;
         margin: 0 auto;
-        padding-top: 5vh;
+        padding-top: 10vh;
         width: 80%;
         display: flex;
         justify-content: center;
@@ -737,6 +765,12 @@ footer {
 
     /* Stress Page */
 
+    /* Intro Text */
+
+    #page-intro-text ul {
+        margin-left: 2em;
+    }
+
     /* Get ready section */
 
     #cards-get-ready {
@@ -861,7 +895,7 @@ footer {
     #hero-outer {
         height: auto;
         position: relative;
-        margin-top: 12vh;
+        margin-top: 10vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -1016,4 +1050,5 @@ footer {
     .get-ready-card-text {
         height: 70%;
     }
+
 }
