@@ -73,14 +73,14 @@ If you have problems sleeping we have a page with advice on how to get better sl
 
 ![404 Page](https://github.com/adrian-cucuet/project1/blob/main/assets/images/404-screen-shot.png) 
 
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
 
 ## Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
 
 ## User Experience (UX)
 
@@ -115,7 +115,7 @@ For the color scheme, I picked simple colors, using the 60-30-10 rule. The color
 - Another feature idea would be to create a Retreats page where the users can organize retreat events and register to participate.
 - Implementing animation using JavaScript for the illustration and the mobile navbar.
 
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
  
 ## Testing
  
@@ -138,7 +138,7 @@ Due to the Favicon files uploaded, the website has a .webmanifest file that allo
  
 Due to videos embedded in the Mediation pages, the performance was low. I have tried to find solutions to increase the performance score. One of the solutions was to create a link for the videos and send the user on the YouTube website. As this would drive traffic away from this website I decided to wait until I find a javascript solution to fix the loading time for the pages.
 
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
  
 ## Deployment
  
@@ -153,7 +153,7 @@ Due to videos embedded in the Mediation pages, the performance was low. I have t
  
 The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/project1/index.html)
  
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
 
 ## Credits
  
@@ -164,7 +164,7 @@ The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/
 - The videos are taken from various [YouTube](https://www.youtube.com/) channels as embedded videos.
 - [Favicon](https://favicon.io/favicon-generator/) was used for creating icons for the website.
  
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
 
 ### Other General Project Advice
  
@@ -172,4 +172,4 @@ The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/
 
 - To make the iframe responsive and keep the ratio I found a solution on [stackoverflow](https://stackoverflow.com/a/60166158/19997434)
 
-[Back to top &uarr;]
+[Back to top &uarr;](#table-of-contents)
