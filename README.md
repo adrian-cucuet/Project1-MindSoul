@@ -71,7 +71,7 @@ If you have problems sleeping we have a page with advice on how to get better sl
 
 ### 404 page
 
- - In case a link is broken or a page that doesn't exist anymore is loaded, a 404 page will come up and redirect the user towards the Home page. The page contains an error message and a button to go back to the home page.
+ - In case the requested page is not available, a 404 page will appear and redirect the user towards the Home page. The page contains an error message and a button to go back to the home page.
 
 ![404 Page](https://github.com/adrian-cucuet/project1/blob/main/assets/images/404-screen-shot.png) 
 
@@ -123,7 +123,7 @@ For the color scheme, I picked simple colors, using the 60-30-10 rule. The color
  
 Testing has been done on different browsers (Chrome, Safari, Firefox) and the website was performing well on all three.
  
-The mobile responsiveness testing has been done using iPhone, Xiaomi, and Samsung and the website kept the same layout on all three with no issues.
+The mobile responsiveness testing has been done using iOS, and Android. The website kept the same layout on all three with no issues.
 
 Due to the Favicon files uploaded, the website has a .webmanifest file that allows the mobile website to be saved on the home screen of the phone and acts like a progressive web app.
 
@@ -138,20 +138,16 @@ Due to the Favicon files uploaded, the website has a .webmanifest file that allo
  
 ### Unfixed Bugs
  
-Due to videos embedded in the Mediation pages, the performance was low. I have tried to find solutions to increase the performance score. One of the solutions was to create a link for the videos and send the user on the YouTube website. As this would drive traffic away from this website I decided to wait until I find a javascript solution to fix the loading time for the pages.
+Due to videos embedded in the Mediation pages, the page performance was low. I have tried to find solutions to increase the performance score. One of the solutions was to create a link for the videos and send the user on the YouTube website. As this would drive traffic away from this website I decided to wait until I find a javascript solution to fix the loading time for the pages.
 
 [Back to top &uarr;](#table-of-contents)
  
 ## Deployment
  
-- The following are the steps I went through to deploy my live site:
-
-    - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - In the GitHub repository, navigate to the Settings tab on the top menu.
-    - From the settings page, navigate to the Pages section from the left-hand side menu.
-    - From the source section drop-down menu, select "Deploy From a Branch"
-    - Press the save button.
-    - After a few minutes, you can refresh the page to see your Live Site link at the top.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a       detailed ribbon display to indicate the successful deployment.
  
 The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/project1/index.html)
  
@@ -159,7 +155,6 @@ The live link can be found here - [Mind & Soul](https://adrian-cucuet.github.io/
 
 ## Credits
  
-- The icons used for social media and benefits are from [FontAwesome](https://fontawesome.com/)
 - The text for the Home page and all the Meditation pages was taken from [HSE](https://www.hse.ie/eng/)
 - The icons used for social media and benefits are from [FontAwesome](https://fontawesome.com/)
 - All the illustrations are from [Storyset](https://storyset.com/people)
